@@ -140,3 +140,18 @@ eval "$(starship init zsh)"
 alias v="nvim"
 
 . "$HOME/.local/bin/env"
+
+export PATH=$PATH:/snap/bin
+
+alias g="git"
+alias gcmt="git commit"
+alias gcmm="git commit -m"
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/mbholly/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
