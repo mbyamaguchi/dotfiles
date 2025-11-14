@@ -22,6 +22,6 @@ ln -s $DOTFILES_PATH/nvim ~/.config/nvim
 sudo apt update && sudo apt upgrade
 sudo apt install -y wget curl git neovim zsh gcc 
 
-
+git config --global init.defaultBranch main
 
 
